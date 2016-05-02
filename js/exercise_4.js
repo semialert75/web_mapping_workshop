@@ -59,6 +59,7 @@ var clickHandler = function(e){
   info += '</div>';
   $('#info').append(info);
 	})
+  var fromLocation = myLocation.getGeoJSON()
 }
 
 featureLayer.on('ready', function(){
