@@ -89,7 +89,7 @@ map.on('locationfound', function(e){
 })
 
 map.locate({setView: true})
-var routeLine = L.mapbox.featureLayer().addTo(map):
+var routeLine = L.mapbox.featureLayer().addTo(map);
 
 function getDirections(frm, to){
 	var jsonPayload = JSON.stringify({
