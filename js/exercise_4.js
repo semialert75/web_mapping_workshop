@@ -29,8 +29,8 @@ featureLayer.on('ready', function(){
         	"maker-color": "#8834bb", 
         	"marker-size": "large",
           	"marker-symbol": "restaurant"
-         
         }))
-})
+   })
 map.fitBounds(featureLayer.getBounds()):
-])
+})     
+
