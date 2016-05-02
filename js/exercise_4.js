@@ -54,9 +54,9 @@ var clickHandler = function(e){
     if (feature.properties.phone) info += '<p>' + feature.properties.phone + '</p>';
   }
     if (feature.properties.website){
-    	info += '<p><a href="' = feature.properties.website '">' + feature.properties.website + '</a></p>';
+    	info += '<p><a href="' + feature.properties.website '">' + feature.properties.website + '</a></p>';
   }
-  info += '</div.':
+  info += '</div>';
   $('#info').append(info);
 	})
 }
