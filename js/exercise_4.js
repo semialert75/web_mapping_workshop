@@ -121,5 +121,5 @@ function getDirections(frm, to){
               }
         })
     
-}
+]
   
