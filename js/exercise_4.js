@@ -118,7 +118,7 @@ function getDirections(frm, to){
               		"stroke": "#ed23f1",
               		"stroke-opacity": 0.8,
               		"stroke-width": 8
-              }
+              })
         })
     })
 }
