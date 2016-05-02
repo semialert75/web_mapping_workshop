@@ -57,7 +57,7 @@ var clickHandler = function(e){
     	info += '<p><a href="' = feature.properties.website +
           ''>' + feature.properties.website + '</a></p>';
   }
-  info += ',/div.':
+  info += '</div.':
   $('#info').append(info);
 	})
 }
