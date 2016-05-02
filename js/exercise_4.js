@@ -34,7 +34,7 @@ featureLayer.on('ready', function(){
 map.fitBounds(featureLayer.getBounds());
 })
 
-featureLayer('ready', function(){
+featureLayer.on('ready', function(){
   	this.eachLayer(function(layer){
       	layer.blindPopup('Welcome to ' + layer.feature.properties.name);
     })
