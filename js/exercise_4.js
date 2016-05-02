@@ -60,6 +60,7 @@ var clickHandler = function(e){
   $('#info').append(info);
 	})
   var fromLocation = myLocation.getGeoJSON()
+  getDirections(fromLocation.geometry.coordinates, feature.geometry.coordinates)
 }
 
 featureLayer.on('ready', function(){
