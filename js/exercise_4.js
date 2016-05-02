@@ -26,7 +26,7 @@ var featureLayer = L.mapbox.featureLayer();
 featureLayer.on('ready', function(){
 	this.eachLayer(function(layer){
       	layer.setIcon(L.mapbox.marker.icon({
-        	"maker-color": #8834bb", 
+        	"maker-color": "#8834bb", 
         	"marker-size": "large",
           	"marker-symbol": "restaurant"
          
